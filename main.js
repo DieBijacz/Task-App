@@ -1,3 +1,16 @@
+//Adding tasks
+
+let form = document.getElementById('addForm')
+let itemList = document.getElementById('items')
+form.addEventListener('submit', addItem)
+
+function addItem (e) {
+    
+}
+
+
+// Change body color
+
 let body = document.querySelector('body')
 let box = document.getElementById('box')
 box.addEventListener('mousemove', runEvent)

@@ -29,24 +29,25 @@
                 <form id="addForm">
                     <h1 class="title" id="Add-item" >Add Item</h1>
                     <div class="input-panel">          
-                      <input type="text" class="form-control" id="item" placeholder="Write task here...">      
+                      <input type="text" class="form-control" id="addItem" placeholder="Write task here...">      
                       <input type="submit" class="button" value="Submit" id="przycisk" >
                     </div>       
-                  </form>
+                </form>
                 <div class="tasks">
                     <h1>Tasks:</h1>
-                    <ul class="my-list" >
-                        <li>List Item</li>
-                        <li>List Item</li>
-                        <li>List Item</li>
-                        <li>List Item</li>
-                        <li>List Item</li>
-                        <li>List Item</li>
-                        <li>List Item</li>
+                    <ul class="my-list" id="items" >
+                        <li class="list-item-group">List Item <button class="deleteButton">X</button></li>
+                        <li class="list-item-group">List Item <button class="deleteButton">X</button></li>
+                        <li class="list-item-group">List Item <button class="deleteButton">X</button></li>
+                        <li class="list-item-group">List Item <button class="deleteButton">X</button></li>
+                        <li class="list-item-group">List Item <button class="deleteButton">X</button></li>
+                        <li class="list-item-group">List Item <button class="deleteButton">X</button></li>
+                        <li class="list-item-group">List Item <button class="deleteButton">X</button></li>
                     </ul>
                 </div>
             </div>
             <section class="color-box">
+                <div id="output"></div> 
                 <div id="box">
             </section>            
             </div>
